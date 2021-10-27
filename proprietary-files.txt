@@ -1646,7 +1646,6 @@ vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.2.so
 vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0.so
 
 # Radio
-system_ext/app/datastatusnotification/datastatusnotification.apk
 system_ext/app/embms/embms.apk
 system_ext/app/uceShimService/uceShimService.apk
 system_ext/etc/permissions/com.qualcomm.location.xml
