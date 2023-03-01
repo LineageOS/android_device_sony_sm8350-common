@@ -9,6 +9,14 @@ service msim_sh /odm/bin/init.qcom.msim.sh
     group root
     oneshot
 
+on boot
+    # Chown battery node
+    wait /sys/class/battchg_ext
+    chown system system /sys/class/battchg_ext/smart_charging_interruption
+
+    # Set charging node ready prop
+    setprop vendor.charging_node.ready 1
+
 on post-fs
     # radio
     exec_start msim_sh
