@@ -167,6 +167,11 @@ TARGET_USES_ION := true
 # Filesystem
 TARGET_FS_CONFIG_GEN := $(COMMON_PATH)/config.fs
 
+# Health
+TARGET_HEALTH_CHARGING_CONTROL_PATH := /sys/class/power_supply/battery_ext/smart_charging_interruption
+TARGET_HEALTH_CHARGING_CONTROL_ENABLE := 0
+TARGET_HEALTH_CHARGING_CONTROL_DISABLE := 1
+
 # HIDL
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := \
     $(COMMON_PATH)/framework_compatibility_matrix.xml \
