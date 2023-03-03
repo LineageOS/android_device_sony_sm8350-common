@@ -22,6 +22,30 @@
       },
       "revId": "c5a192f1f1e995545010692bc5da4df4bf8a14b8",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c0fd92e4_146fdb6b",
+        "filename": "framework_compatibility_matrix.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 116,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2023-03-03T19:54:06Z",
+      "side": 1,
+      "message": "Done https://review.lineageos.org/c/LineageOS/android_vendor_lineage/+/350379",
+      "parentUuid": "6de249c9_2823537e",
+      "range": {
+        "startLine": 110,
+        "startChar": 0,
+        "endLine": 116,
+        "endChar": 10
+      },
+      "revId": "c5a192f1f1e995545010692bc5da4df4bf8a14b8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
