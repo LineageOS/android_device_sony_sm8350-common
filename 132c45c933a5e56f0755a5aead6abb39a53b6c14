@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "183dcb7e_7343cff3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 31578
+      },
+      "writtenOn": "2023-03-23T04:25:16Z",
+      "side": 1,
+      "message": "Decommonizing config and firmware blobs make sense. But I am not sure if we want to decommonize so and exexutable files?",
+      "revId": "132c45c933a5e56f0755a5aead6abb39a53b6c14",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
