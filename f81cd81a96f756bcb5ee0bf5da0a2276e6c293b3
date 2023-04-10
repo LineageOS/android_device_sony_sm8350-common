@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e18b2cf9_c793eba1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 31578
+      },
+      "writtenOn": "2023-04-10T15:09:31Z",
+      "side": 1,
+      "message": "Commonizing so files makes the security patch level consistent",
+      "revId": "f81cd81a96f756bcb5ee0bf5da0a2276e6c293b3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
