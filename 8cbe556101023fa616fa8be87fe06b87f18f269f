@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "97ce04e5_2c5c300f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 14962
+      },
+      "writtenOn": "2023-05-02T14:58:47Z",
+      "side": 1,
+      "message": "Verified on XQ-BQ42 (pdx214). This will probably work with XQ-BC42 (pdx215).",
+      "revId": "8cbe556101023fa616fa8be87fe06b87f18f269f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
