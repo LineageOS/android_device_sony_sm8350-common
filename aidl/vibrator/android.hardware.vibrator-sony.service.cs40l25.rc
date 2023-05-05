@@ -50,7 +50,7 @@ service vendor.vibrator.cs40l25 /vendor/bin/hw/android.hardware.vibrator-sony.se
     user system
     group system
 
-    setenv PROPERTY_PREFIX ro.vibrator.hal.
+    setenv PROPERTY_PREFIX ro.vendor.vibrator.hal.
 
     setenv HWAPI_PATH_PREFIX /sys/class/leds/vibrator/
     setenv HWAPI_DEBUG_PATHS "

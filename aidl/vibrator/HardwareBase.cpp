@@ -142,6 +142,14 @@ out:
 }
 
 HwCalBase::HwCalBase() {
+    auto propertyPrefix = std::getenv("PROPERTY_PREFIX");
+
+    if (propertyPrefix != NULL) {
+        mPropertyPrefix = std::string(propertyPrefix);
+    } else {
+        ALOGE("Failed get property prefix!");
+    }
+
     ALOGI("%s: Starting getting vibrator calibration data from TA partition", __func__);
     ta_handle = dlopen(LIB_MISCTA, RTLD_NOW);
     int ret;
