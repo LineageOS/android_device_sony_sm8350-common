@@ -251,6 +251,11 @@ vendor.usb.use_ffs_mtp=1
 vendor.usb.use_gadget_hal=0
 sys.usb.mtp.batchcancel=1
 
+# Vibrator
+ro.vendor.vibrator.hal.long.frequency.shift=15
+ro.vendor.vibrator.hal.device.mass=0.19
+ro.vendor.vibrator.hal.loc.coeff=2.5
+
 # Wifi
 wifi.aware.interface=wifi-aware0
 
