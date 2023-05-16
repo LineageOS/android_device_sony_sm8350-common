@@ -16,6 +16,23 @@
       "message": "Tested with https://github.com/luk1337/VibeTest",
       "revId": "f66845c6e27537161364ac1c6361e23fad3b5dde",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "580db6ac_bb9eca61",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 14962
+      },
+      "writtenOn": "2023-05-16T14:16:41Z",
+      "side": 1,
+      "message": "vibrator works on pdx214",
+      "revId": "f66845c6e27537161364ac1c6361e23fad3b5dde",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
