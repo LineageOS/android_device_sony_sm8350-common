@@ -16,6 +16,23 @@
       "message": "It\u0027s time to merge.",
       "revId": "bff3fe2a8398e632ec1e500db83a979ee999a74d",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ca826b91_91dda126",
+        "filename": "sepolicy/vendor/hal_lineage_health_default.te",
+        "patchSetId": 23
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 31578
+      },
+      "writtenOn": "2023-06-10T06:15:42Z",
+      "side": 1,
+      "message": "remove those two lines, they are already included in lineage\u0027s sepolicies.",
+      "revId": "bff3fe2a8398e632ec1e500db83a979ee999a74d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
