@@ -33,6 +33,24 @@
       "message": "remove those two lines, they are already included in lineage\u0027s sepolicies.",
       "revId": "bff3fe2a8398e632ec1e500db83a979ee999a74d",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d70c228c_246d9a1c",
+        "filename": "sepolicy/vendor/hal_lineage_health_default.te",
+        "patchSetId": 23
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 31578
+      },
+      "writtenOn": "2023-06-10T14:17:25Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ca826b91_91dda126",
+      "revId": "bff3fe2a8398e632ec1e500db83a979ee999a74d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
