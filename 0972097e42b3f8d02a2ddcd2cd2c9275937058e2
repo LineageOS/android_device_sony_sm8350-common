@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "46e47ab7_94efb6ec",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 31578
+      },
+      "writtenOn": "2023-06-14T06:17:01Z",
+      "side": 1,
+      "message": "https://github.com/hellobbn/proprietary_vendor_sony_sm8350-common",
+      "revId": "0972097e42b3f8d02a2ddcd2cd2c9275937058e2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
