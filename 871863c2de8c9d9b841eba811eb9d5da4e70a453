@@ -16,6 +16,23 @@
       "message": "No need as of https://review.lineageos.org/c/LineageOS/android_frameworks_av/+/359313",
       "revId": "871863c2de8c9d9b841eba811eb9d5da4e70a453",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d07924d2_49da289c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 14962
+      },
+      "writtenOn": "2023-06-21T16:10:13Z",
+      "side": 1,
+      "message": "camera stopped working on pdx214.",
+      "revId": "871863c2de8c9d9b841eba811eb9d5da4e70a453",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
