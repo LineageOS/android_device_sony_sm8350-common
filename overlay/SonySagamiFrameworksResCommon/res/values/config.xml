@@ -554,5 +554,7 @@
 
     <!-- default refresh rate in the zone defined by birghtness and ambient thresholds -->
     <integer name="config_defaultRefreshRateInZone">60</integer>
-</resources>
 
+    <!-- Enable Zram writeback feature to allow unused pages in zram be written to flash. -->
+    <bool name="config_zramWriteback">true</bool>
+</resources>
