@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "62431aaa_ce83ae0e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2023-11-23T12:11:32Z",
+      "side": 1,
+      "message": "Why don\u0027t you merge this in lineage-20 before diverging?",
+      "revId": "80caa6939eab0e703fe2aa2c174bee099fe22550",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
