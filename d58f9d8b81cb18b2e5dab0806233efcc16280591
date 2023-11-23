@@ -33,6 +33,24 @@
       "message": "Beware that for some reason gerrit thinks that this change is in lineage-21 branch.",
       "revId": "d58f9d8b81cb18b2e5dab0806233efcc16280591",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d46df67d_39a6b6d6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 31578
+      },
+      "writtenOn": "2023-11-23T12:32:28Z",
+      "side": 1,
+      "message": "Thanks for the note, I will merge https://review.lineageos.org/c/LineageOS/android_device_sony_sm8350-common/+/364427 first and rebase the chain",
+      "parentUuid": "555a4448_b492a431",
+      "revId": "d58f9d8b81cb18b2e5dab0806233efcc16280591",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
