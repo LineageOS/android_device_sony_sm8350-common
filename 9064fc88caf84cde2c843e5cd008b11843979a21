@@ -16,6 +16,23 @@
       "message": "Why don\u0027t you merge this in lineage-20 before diverging?",
       "revId": "9064fc88caf84cde2c843e5cd008b11843979a21",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "294d28ff_83d09a1b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 14962
+      },
+      "writtenOn": "2023-11-24T22:22:56Z",
+      "side": 1,
+      "message": "lineage 21 chain should branch cleanly from lineage 20 branch.",
+      "revId": "9064fc88caf84cde2c843e5cd008b11843979a21",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
