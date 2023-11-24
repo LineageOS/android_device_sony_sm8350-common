@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d3dfedbb_5716052e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 14962
+      },
+      "writtenOn": "2023-11-24T22:18:11Z",
+      "side": 1,
+      "message": "Commit message should start with \u0027sm8350-common:\u0027",
+      "revId": "3f11a7271041a06564a7b785fac0b41ed69e047c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
