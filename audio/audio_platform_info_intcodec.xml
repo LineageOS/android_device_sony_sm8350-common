@@ -210,6 +210,7 @@
         <device name="SND_DEVICE_IN_HANDSET_DMIC_NS_SB" acdb_id="11"/>
         <device name="SND_DEVICE_IN_HANDSET_DMIC_AEC_NS" acdb_id="11"/>
         <device name="SND_DEVICE_IN_HANDSET_DMIC_AEC_NS_SB" acdb_id="11"/>
+        <device name="SND_DEVICE_IN_HANDSET_DMIC_STEREO" acdb_id="35"/>
     </acdb_ids>
     <backend_names>
         <device name="SND_DEVICE_OUT_HEADPHONES" backend="headphones" interface="RX_CDC_DMA_RX_0" />
