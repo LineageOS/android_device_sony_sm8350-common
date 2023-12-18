@@ -244,6 +244,7 @@ PRODUCT_PACKAGES += \
 
 # Common init scripts
 PRODUCT_PACKAGES += \
+    fstab.zram \
     init.class_main.sh \
     init.kernel.post_boot-lahaina.sh \
     init.qcom.early_boot.sh \
