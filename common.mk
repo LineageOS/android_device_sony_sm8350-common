@@ -245,6 +245,7 @@ PRODUCT_PACKAGES += \
 # Common init scripts
 PRODUCT_PACKAGES += \
     init.class_main.sh \
+    init.kernel.post_boot-lahaina.sh \
     init.qcom.early_boot.sh \
     init.qcom.msim.sh \
     init.qcom.rc \
