@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "802ca02d_4dfddccd",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 14962
+      },
+      "writtenOn": "2024-02-19T09:19:41Z",
+      "side": 1,
+      "message": "a2dp, camera, graphics, and radio works without problem",
+      "revId": "9a57cb6af2fe7028d66f3cdf4d3d3c41d350ef64",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
