@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0fe8cf84_5e99c0ed",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 14962
+      },
+      "writtenOn": "2024-03-22T12:53:32Z",
+      "side": 1,
+      "message": "Without this, the camera will not work on QRP2",
+      "revId": "aa02e22674f240d729cd1edca1ca5a739e20f05c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
