@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "99be3c89_5bc16488",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 14962
+      },
+      "writtenOn": "2024-04-19T08:36:17Z",
+      "side": 1,
+      "message": "WFD is currently broken.\nBlob update is here: https://github.com/kyasu/proprietary_vendor_sony_sm8350-common",
+      "revId": "e07dd72ec7c853807e6144eecdd3badf1e383196",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
