@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "71d26dfc_219f446d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 14962
+      },
+      "writtenOn": "2024-05-11T09:03:48Z",
+      "side": 1,
+      "message": "qcom wfd now works, so put this on hold.",
+      "revId": "d0d87e9dc433b42a4f8f69071e943ab616fd7df8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
