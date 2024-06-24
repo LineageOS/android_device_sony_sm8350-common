@@ -382,7 +382,8 @@ PRODUCT_PACKAGES_DEBUG += \
 
 # USB
 PRODUCT_PACKAGES += \
-    android.hardware.usb-service.qti
+    android.hardware.usb-service.qti \
+    android.hardware.usb.gadget-service.qti
 
 # Vendor service manager
 PRODUCT_PACKAGES += \
