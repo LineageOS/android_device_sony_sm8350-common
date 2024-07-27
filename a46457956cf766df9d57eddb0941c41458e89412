@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bc2be464_1e10f8ad",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 14962
+      },
+      "writtenOn": "2024-07-27T06:53:35Z",
+      "side": 1,
+      "message": "sm8250-common also required this patch. please merge sm8250-common too.",
+      "revId": "a46457956cf766df9d57eddb0941c41458e89412",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
