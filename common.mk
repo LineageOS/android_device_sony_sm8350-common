@@ -385,16 +385,6 @@ PRODUCT_PACKAGES += \
     Tag \
     NfcNci
 
-# OMX
-PRODUCT_PACKAGES += \
-    libOmxAacEnc \
-    libOmxAmrEnc \
-    libOmxCore \
-    libOmxEvrcEnc \
-    libOmxG711Enc \
-    libOmxQcelp13Enc \
-    libstagefrighthw
-
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power-service-qti \
