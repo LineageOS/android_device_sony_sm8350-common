@@ -13,6 +13,8 @@ if [[ ! -d "${MY_DIR}" ]]; then MY_DIR="${PWD}"; fi
 
 ANDROID_ROOT="${MY_DIR}/../../.."
 
+export TARGET_ENABLE_CHECKELF=true
+
 # If XML files don't have comments before the XML header, use this flag
 # Can still be used with broken XML files by using blob_fixup
 export TARGET_DISABLE_XML_FIXING=true
@@ -68,15 +70,33 @@ fi
 
 function blob_fixup() {
     case "${1}" in
+    system_ext/lib64/libwfdnative.so)
+        [ "$2" = "" ] && return 0
+        grep -q "android.hidl.base@1.0.so" "${2}" && sed -i "s/android.hidl.base@1.0.so/libhidlbase.so\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00/g" "${2}"
+        ;;
+    vendor/lib64/vendor.semc.hardware.extlight-V1-ndk_platform.so)
+        [ "$2" = "" ] && return 0
+        grep -q "android.hardware.light-V1-ndk.so" "${2}" || "${PATCHELF}" --replace-needed "android.hardware.light-V1-ndk_platform.so" "android.hardware.light-V1-ndk.so" "${2}"
+        ;;
     vendor/lib64/vendor.somc.camera* | vendor/bin/hw/vendor.somc.hardware.camera.*)
         [ "$2" = "" ] && return 0
-        "${PATCHELF}" --replace-needed "libutils.so" "libutils-v32.so" "${2}"
-        "${PATCHELF}" --replace-needed "libhidlbase.so" "libhidlbase-v32.so" "${2}"
+        grep -q "libutils-v32.so" "${2}" || "${PATCHELF}" --replace-needed "libutils.so" "libutils-v32.so" "${2}"
+        grep -q "libhidlbase-v32.so" "${2}" || "${PATCHELF}" --replace-needed "libhidlbase.so" "libhidlbase-v32.so" "${2}"
+        grep -q "libbinder-v32.so" "${2}" && return 0
         if ! "${PATCHELF}" --print-needed "${2}" | grep "libbinder.so" > /dev/null; then
             "${PATCHELF}" --add-needed "libbinder-v32.so" "${2}"
         else
             "${PATCHELF}" --replace-needed "libbinder.so" "libbinder-v32.so" "${2}"
         fi
+        ;;
+    vendor/lib/libiVptApi.so | vendor/lib64/libiVptApi.so)
+        [ "$2" = "" ] && return 0
+        grep -q "libiVptLibC.so" "${2}" || "${PATCHELF}" --add-needed "libiVptLibC.so" "${2}"
+        ;;
+    vendor/lib/libiVptLibC.so | vendor/lib64/libiVptLibC.so)
+        [ "$2" = "" ] && return 0
+        grep -q "libcrypto.so" "${2}" || "${PATCHELF}" --add-needed "libcrypto.so" "${2}"
+        grep -q "libiVptHkiDec.so" "${2}" || "${PATCHELF}" --add-needed "libiVptHkiDec.so" "${2}"
         ;;
     esac
 
