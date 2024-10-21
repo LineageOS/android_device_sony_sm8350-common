@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9bbc7da6_573c5ba4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 14962
+      },
+      "writtenOn": "2024-10-21T03:41:35Z",
+      "side": 1,
+      "message": "blobs also updated: https://github.com/kyasu/proprietary_vendor_sony_sm8350-common",
+      "revId": "0718caad39d53c11738fc101dcee91e6f8f5b68b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
