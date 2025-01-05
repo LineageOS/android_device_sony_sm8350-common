@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "78d0f14f_82a6c4cf",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2025-01-05T17:11:37Z",
+      "side": 1,
+      "message": "You should be using https://review.lineageos.org/q/I5381e098af64271f9d71c484262e1710e8fcacea and https://review.lineageos.org/c/LineageOS/android_device_sony_sm8350-common/+/414144 which completely remove the OMX service. After that, setting vendor.media.omx\u003d0 is not needed",
+      "revId": "af631c32844f9188d557dd19d6223e87db7da1ad",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
