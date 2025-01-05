@@ -1,6 +1,23 @@
 {
   "comments": [
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "c09b8828_6dfc8913",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2025-01-05T17:08:28Z",
+      "side": 1,
+      "message": "What about https://review.lineageos.org/c/LineageOS/android_device_sony_sm8350-common/+/414143 and https://review.lineageos.org/c/LineageOS/android_device_sony_sm8350-common/+/414144 ?",
+      "revId": "c716854ccf1779e73b6cc3ea61b89b7ebf919d6d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "5d52e023_cea296b3",
