@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5d52e023_cea296b3",
+        "filename": "extract-files.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2025-01-05T17:07:26Z",
+      "side": 1,
+      "message": "This is also OMX",
+      "revId": "c716854ccf1779e73b6cc3ea61b89b7ebf919d6d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "40d17d21_7bc0c64e",
+        "filename": "extract-files.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2025-01-05T17:07:26Z",
+      "side": 1,
+      "message": "Unrelated to this change, but you can enable elf checks for this file too",
+      "revId": "c716854ccf1779e73b6cc3ea61b89b7ebf919d6d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0d128c19_74a65b6a",
+        "filename": "extract-files.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2025-01-05T17:07:26Z",
+      "side": 1,
+      "message": "This is also OMX",
+      "revId": "c716854ccf1779e73b6cc3ea61b89b7ebf919d6d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
