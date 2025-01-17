@@ -356,8 +356,7 @@ PRODUCT_COPY_FILES += \
 
 # Light
 PRODUCT_PACKAGES += \
-    android.hardware.lights-service.qti \
-    lights.sony
+    android.hardware.light-service.lineage
 
 # LiveDisplay
 PRODUCT_PACKAGES += \
