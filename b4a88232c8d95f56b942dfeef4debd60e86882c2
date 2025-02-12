@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0f3eea85_9f6f417c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 31578
+      },
+      "writtenOn": "2025-02-12T01:28:36Z",
+      "side": 1,
+      "message": "this does not actually support blink mode, because the blink implementation is different in 1iii: It writes to the trigger node, then the delay_on/delay_off node will show up, then it will write to the delay_on/delay_off node based on OnMs and OffMs:\n\nhttps://github.com/LineageOS/android_device_sony_sm8350-common/blob/lineage-22.1/liblight/lights.c#L237\n\nWe need to have this in the common light HAL before we can use this",
+      "revId": "b4a88232c8d95f56b942dfeef4debd60e86882c2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
