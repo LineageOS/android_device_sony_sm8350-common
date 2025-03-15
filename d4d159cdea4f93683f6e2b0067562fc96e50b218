@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2e3c405e_e30673d0",
+        "filename": "extract-files.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2025-03-15T09:49:45Z",
+      "side": 1,
+      "message": "Btw those are already converted to bp so you don\u0027t need to disable elf checks anymore, you can find the commits in other devices or just make your own",
+      "range": {
+        "startLine": 66,
+        "startChar": 0,
+        "endLine": 68,
+        "endChar": 17
+      },
+      "revId": "d4d159cdea4f93683f6e2b0067562fc96e50b218",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
