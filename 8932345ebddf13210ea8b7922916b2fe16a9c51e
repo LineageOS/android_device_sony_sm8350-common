@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "942e3369_c23fc5ed",
+        "filename": "manifest.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 14962
+      },
+      "writtenOn": "2025-03-19T07:36:57Z",
+      "side": 1,
+      "message": "the position of these additions should be before android.hardware.soundtrigger.",
+      "revId": "8932345ebddf13210ea8b7922916b2fe16a9c51e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
