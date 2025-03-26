@@ -16,6 +16,24 @@
       "message": "the position of these additions should be before android.hardware.soundtrigger.",
       "revId": "8932345ebddf13210ea8b7922916b2fe16a9c51e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d0a2df38_a824777e",
+        "filename": "manifest.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 31578
+      },
+      "writtenOn": "2025-03-26T14:16:06Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "942e3369_c23fc5ed",
+      "revId": "8932345ebddf13210ea8b7922916b2fe16a9c51e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
