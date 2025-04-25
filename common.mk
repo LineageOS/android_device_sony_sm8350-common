@@ -370,7 +370,7 @@ PRODUCT_COPY_FILES += \
 
 # Touch
 PRODUCT_PACKAGES += \
-    vendor.lineage.touch@1.0-service.sony
+    vendor.lineage.touch-service.sony
 
 # Update engine
 PRODUCT_PACKAGES += \
