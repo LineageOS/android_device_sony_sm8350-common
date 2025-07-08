@@ -2,3 +2,5 @@
 ro.config.media_vol_steps=30
 ro.config.vc_call_vol_steps=8
 
+# eBPF
+ro.bpf.kver_override=5.10.239
