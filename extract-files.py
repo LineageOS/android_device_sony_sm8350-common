@@ -83,6 +83,8 @@ blob_fixups: blob_fixups_user_type = {
         .add_needed('libbinder_shim.so')
         .add_needed('libinput_shim.so'),
     (
+        'vendor/bin/hw/vendor.semc.hardware.extlight-service.somc',
+        'vendor/lib64/libcammw.so',
         'vendor/lib64/vendor.semc.hardware.extlight-V1-ndk_platform.so',
     ): blob_fixup()
         .replace_needed('android.hardware.light-V1-ndk_platform.so', 'android.hardware.light-V1-ndk.so'),
