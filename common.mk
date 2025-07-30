@@ -290,6 +290,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/media/media_codecs_lahaina_vendor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_lahaina.xml \
     $(LOCAL_PATH)/media/media_codecs_lahaina_vendor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_lahaina_vendor.xml
 
+$(call soong_config_set,stagefright,target_disables_thumbnail_block_model,true)
+
 # Light
 PRODUCT_PACKAGES += \
     android.hardware.lights-service.qti \
