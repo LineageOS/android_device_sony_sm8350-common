@@ -399,6 +399,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.vibrator-sony.service.cs40l25
 
+$(call soong_config_set_bool,SonyVibratorVars,use_compound_double_click_effect,true)
+$(call soong_config_set_bool,SonyVibratorVars,use_effect_duration_polling,false)
+
 # WiFi
 PRODUCT_PACKAGES += \
     android.hardware.wifi-service \
