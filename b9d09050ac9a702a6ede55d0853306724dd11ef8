@@ -1,6 +1,23 @@
 {
   "comments": [
     {
+      "unresolved": true,
+      "key": {
+        "uuid": "b9954c30_73d5c43f",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 36773
+      },
+      "writtenOn": "2026-04-12T15:46:34Z",
+      "side": 1,
+      "message": "s/vibrator/cs40l25. I will update SM8650 too when the merge into hw-sony will happen",
+      "revId": "b9d09050ac9a702a6ede55d0853306724dd11ef8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": false,
       "key": {
         "uuid": "cbf4ac33_b5c3a14c",
