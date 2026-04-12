@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fccaf88c_8c24056c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 14962
+      },
+      "writtenOn": "2026-04-12T06:18:59Z",
+      "side": 1,
+      "message": "Commit message: sm8650-common -\u003e sm8350-common",
+      "revId": "55c2195c1fd8d3f789d0374e10c02998ba5c642c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
