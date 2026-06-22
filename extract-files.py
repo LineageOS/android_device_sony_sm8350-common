@@ -64,6 +64,10 @@ lib_fixups: lib_fixups_user_type = {
 }
 
 blob_fixups: blob_fixups_user_type = {
+    'system/framework/WfdCommon.jar': blob_fixup()
+        .apktool_patch('blob-patches/WfdCommon.patch'),
+    'system_ext/lib64/libwfdservice.so': blob_fixup()
+        .replace_needed('android.media.audio.common.types-V4-cpp.so', 'android.media.audio.common.types-V5-cpp.so'),
     (
         'vendor/bin/hw/vendor.semc.hardware.extlight-service.somc',
         'vendor/lib64/libcammw.so',
@@ -101,10 +105,6 @@ blob_fixups: blob_fixups_user_type = {
         'vendor/lib64/libsomc_chokoballpal.so',
     ): blob_fixup()
         .replace_needed('libui.so', 'libui-v34.so'),
-    (
-        'system_ext/lib64/libwfdnative.so',
-    ): blob_fixup()
-        .add_needed('libinput_shim.so'),
     (
         'vendor/lib64/libdpps.so',
         'vendor/lib64/liblearningmodule.so',
