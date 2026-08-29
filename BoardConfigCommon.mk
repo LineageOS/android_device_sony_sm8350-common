@@ -80,7 +80,6 @@ BOARD_DTB_OFFSET           := 0x01f00000
 BOARD_KERNEL_IMAGE_NAME := Image
 BOARD_KERNEL_SEPARATED_DTBO := true
 TARGET_KERNEL_ARCH := arm64
-TARGET_KERNEL_NO_GCC := true
 TARGET_KERNEL_CONFIG := \
     vendor/lahaina-qgki_defconfig \
     vendor/sagami.config
