@@ -16,6 +16,23 @@
       "message": "pdx214 does not boot without this",
       "revId": "8a4df77d6dc80c1e760432dbd625c4fab0d7cff6",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1617a6ff_0248d876",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 14962
+      },
+      "writtenOn": "2026-09-01T09:25:46Z",
+      "side": 1,
+      "message": "After updating the kernel, pdx214 now boots without this.",
+      "revId": "8a4df77d6dc80c1e760432dbd625c4fab0d7cff6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
